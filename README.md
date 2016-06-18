@@ -13,3 +13,8 @@ Copy the script to your emacs scripts folder and add the following lines to the 
 
 Make sure you've added it to the end of `.emacs`. This will help you to load buffers properly.
 
+If you don't want buffers to be saved this session, use the following command:
+```
+(do-not-save-temp-buffers)
+```
+Next session, of course, previously saved buffers will be loaded. 
